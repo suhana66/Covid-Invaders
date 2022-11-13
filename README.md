@@ -39,4 +39,4 @@ The static files used in this game (found in the 'assets' folder) can be attribu
 - [player.png](https://github.com/Suhana66/Covid-invaders/blob/master/assets/player.png)(<a href="https://www.flaticon.com/free-icons/vaccine" title="vaccine icons">Vaccine icons created by Freepik - Flaticon</a>)
 - [seguisym.ttf](https://github.com/Suhana66/Covid-invaders/blob/master/assets/seguisym.ttf)('seguisym.ttf' downloaded from https://fontsdata.com/132800/segoeuisymbol.htm)(for unicode characters, emojis)
 
-All other files in the [repository](https://github.com/Suhana66/IdeaHub/) are under [MIT License](https://choosealicense.com/licenses/mit/).
+All other files in the [repository](https://github.com/Suhana66/Covid-invaders/) are under [MIT License](https://choosealicense.com/licenses/mit/).
