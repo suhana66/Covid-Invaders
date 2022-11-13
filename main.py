@@ -53,7 +53,6 @@ def main() -> None:
                     if game["stop"]: game["running"] = False
                     if not game["stop"]: game["stop"] = True
 
-
             if event.type == pygame.KEYUP and (event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT): change = 0
 
         # game stop
@@ -91,10 +90,13 @@ def main() -> None:
 
         score_text = invaders.text(fonts["small"], f"Score: {score}")
         quit_text = invaders.text(fonts["small"], "Press Q to quit")
+        
         if game["start"] and not game["stop"]:
             surface.blit(score_text, (invaders.em, invaders.em))
             surface.blit(quit_text, quit_text.get_rect(topright = (surface.get_width() - invaders.em, invaders.em)))
+        
         elif game["stop"]:
+            
             # game stop screen
             texts = [
                 invaders.text(fonts["large"], "Game Over!"),
@@ -114,6 +116,7 @@ def main() -> None:
             texts.append(quit_text)
 
             invaders.text_screen(texts)
+        
         else:
 
             # game start screen
