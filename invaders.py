@@ -1,6 +1,5 @@
 from os import listdir
 from random import choice
-
 import pygame
 
 em = 16
